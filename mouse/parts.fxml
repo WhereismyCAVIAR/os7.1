@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1000.0" xmlns:fx="http://javafx.com/fxml" fx:controller="mouse.Drawing">
+  <children>
+    <CheckBox fx:id="isDeep" layoutX="48.0" layoutY="456.0" mnemonicParsing="false" text="HQ" />
+    <Button fx:id="Button_s" layoutX="40.0" layoutY="10.0" mnemonicParsing="false" onAction="#clickButton_s" text="Start" />
+    <Button fx:id="Button_q" layoutX="100.0" layoutY="10.0" mnemonicParsing="false" onAction="#clickButton_q" text="Quit" />
+    <Pane fx:id="canvas" layoutX="40.0" layoutY="50.0" prefHeight="389.0" prefWidth="872.0" style="-fx-background-color:&quot;#fffffc&quot;;" />
+  </children>
+</AnchorPane>
